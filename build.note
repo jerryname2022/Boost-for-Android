@@ -1,0 +1,7 @@
+build note
+cd BOOSTSRC
+make BOOSTVERSION
+cp ./* ./BOOSTVERSION/
+./BOOSTVERSION/bootstrap.sh
+cd Boost-for-Android 
+./doIt.sh
